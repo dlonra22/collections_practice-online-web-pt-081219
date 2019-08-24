@@ -55,7 +55,7 @@ def kesha_maker(array)
   
 def find_a(array)
   array.select do |elemnt|
-    elemnt.starts_with("a")
+    elemnt.start_with?("a")
   end
 end
 
