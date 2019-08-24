@@ -59,6 +59,15 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  sum = 0
+  array.collect do |elemnt|
+    sum = sum + elemnt
+  end
+end
+  
+    
+
       
       
       
