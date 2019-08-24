@@ -76,6 +76,8 @@ def add_s(array)
     end
     array_with_s
   end
+end
+
       
     
 
