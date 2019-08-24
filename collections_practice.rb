@@ -73,6 +73,8 @@ def add_s(array)
   array.each_with_index do |elemnt,index|
     if index != 1
       array_with_s[i] = elemnt + "s"
+    else
+      array_with_s[i] = elemnt
     end
     i += 1
   end
