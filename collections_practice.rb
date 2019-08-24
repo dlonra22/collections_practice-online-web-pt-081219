@@ -66,7 +66,17 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  i = 0
+  array_with_s = []
+  array.each_with_index do |elemnt,index|
+    if index != 1
+      array_with_s[i] = elemnt + "s"
+    end
   
+      = elemnt + "s"
+      
     
 
       
