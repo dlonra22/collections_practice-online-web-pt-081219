@@ -45,5 +45,5 @@ end
 def kesha_maker(array)
     ke$ha = ""
     array.each do |elemnt|
-      ke$ha = elemnt.
+      ke$ha = elemnt
       
