@@ -64,6 +64,7 @@ def sum_array(array)
   array.collect do |elemnt|
     sum = sum + elemnt
   end
+  sum
 end
   
     
