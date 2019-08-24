@@ -44,7 +44,14 @@ end
 
 def kesha_maker(array)
     ke$ha = ""
+    new_array = []
     array.each do |elemnt|
       ke$ha = elemnt
-      ke$ha.slice
+      ke$ha[2] = '$'
+      new_array << ke$ha
+    end
+    new_array
+  end
+      
+      
       
