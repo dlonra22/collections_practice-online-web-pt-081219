@@ -74,8 +74,8 @@ def add_s(array)
     if index != 1
       array_with_s[i] = elemnt + "s"
     end
-  
-      = elemnt + "s"
+    array_with_s
+  end
       
     
 
