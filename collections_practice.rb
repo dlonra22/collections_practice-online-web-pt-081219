@@ -43,12 +43,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-    ke$ha = ""
+    kesha = ""
     new_array = []
     array.each do |elemnt|
-      ke$ha = elemnt
-      ke$ha[2] = '$'
-      new_array << ke$ha
+      kesha = elemnt
+      kesha[2] = '$'
+      new_array << kesha
     end
     new_array
   end
